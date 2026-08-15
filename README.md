@@ -1,5 +1,5 @@
 
-<img src="banner.svg" alt="Arjun Singh banner" width="100%" />
+<img src="banner_2.svg" alt="Arjun Singh banner" width="100%" />
 
 # Hi, I'm Arjun 👋
 
