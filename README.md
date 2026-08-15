@@ -6,7 +6,7 @@
 🎓 CSE Undergrad @ SJCE Mysore  
 💡 Interested in AI/ML | Building strong DSA fundamentals  
 🌱 Currently: Solving DSA (Striver's Sheet)  
-📫 Reach me: [LinkedIn](https://linkedin.com/in/YOUR-LINKEDIN-USERNAME) · [LeetCode](https://leetcode.com/YOUR-LEETCODE-USERNAME)
+📫 Reach me: [LinkedIn](https://linkedin.com/in/arjun-singh-257a26342)
 
 ---
 
