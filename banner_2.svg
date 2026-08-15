@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 220" width="100%" height="220">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5FF"/>
+      <stop offset="50%" stop-color="#FF2E9F"/>
+      <stop offset="100%" stop-color="#FFD400"/>
+    </linearGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title { font-family: 'Segoe UI', Arial, sans-serif; font-weight: 800; font-size: 46px; fill: url(#nameGrad); filter: url(#glow); }
+      .subtitle { font-family: 'Courier New', monospace; font-size: 16px; fill: #b8c4d8; }
+      .tag { font-family: 'Courier New', monospace; font-size: 13px; font-weight: bold; }
+
+      @keyframes flicker {
+        0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; }
+        20%, 22%, 24%, 55% { opacity: 0.4; }
+      }
+      .title { animation: flicker 5s infinite; }
+
+      @keyframes slide {
+        0% { transform: translateX(-850px); }
+        100% { transform: translateX(850px); }
+      }
+      .sweep { animation: slide 4s linear infinite; }
+
+      @keyframes floatUp {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .float1 { animation: floatUp 3s ease-in-out infinite; }
+      .float2 { animation: floatUp 3s ease-in-out infinite 0.5s; }
+      .float3 { animation: floatUp 3s ease-in-out infinite 1s; }
+      .float4 { animation: floatUp 3s ease-in-out infinite 1.5s; }
+
+      @keyframes barFill {
+        0% { width: 0; }
+        100% { width: 380px; }
+      }
+      .bar { animation: barFill 2.5s ease-out forwards; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="850" height="220" rx="14" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="850" height="220" rx="14" fill="none" stroke="#00F5FF" stroke-width="1.5" opacity="0.5"/>
+
+  <rect x="0" y="0" width="850" height="220" fill="#00F5FF" opacity="0.03" class="sweep"/>
+
+  <text x="40" y="75" class="title">ARJUN SINGH</text>
+  <text x="40" y="105" class="subtitle">// CSE @ SJCE Mysore — building in DSA, AI/ML &amp; Web</text>
+
+  <rect x="40" y="125" width="380" height="6" rx="3" fill="#1a1a2e"/>
+  <rect x="40" y="125" width="380" height="6" rx="3" fill="url(#nameGrad)" class="bar"/>
+
+  <g class="float1">
+    <rect x="40" y="155" width="70" height="26" rx="13" fill="#FF2E9F" opacity="0.15" stroke="#FF2E9F"/>
+    <text x="75" y="172" text-anchor="middle" class="tag" fill="#FF2E9F">DSA</text>
+  </g>
+  <g class="float2">
+    <rect x="122" y="155" width="76" height="26" rx="13" fill="#FFD400" opacity="0.15" stroke="#FFD400"/>
+    <text x="160" y="172" text-anchor="middle" class="tag" fill="#FFD400">AI/ML</text>
+  </g>
+  <g class="float3">
+    <rect x="210" y="155" width="90" height="26" rx="13" fill="#00F5FF" opacity="0.15" stroke="#00F5FF"/>
+    <text x="255" y="172" text-anchor="middle" class="tag" fill="#00F5FF">WEB DEV</text>
+  </g>
+  <g class="float4">
+    <rect x="312" y="155" width="108" height="26" rx="13" fill="#7CFF6B" opacity="0.15" stroke="#7CFF6B"/>
+    <text x="366" y="172" text-anchor="middle" class="tag" fill="#7CFF6B">C · HTML · CSS · JS</text>
+  </g>
+</svg>
