@@ -73,12 +73,4 @@
     <rect x="122" y="155" width="76" height="26" rx="13" fill="#FFD400" opacity="0.15" stroke="#FFD400"/>
     <text x="160" y="172" text-anchor="middle" class="tag" fill="#FFD400">AI/ML</text>
   </g>
-  <g class="float3">
-    <rect x="210" y="155" width="90" height="26" rx="13" fill="#00F5FF" opacity="0.15" stroke="#00F5FF"/>
-    <text x="255" y="172" text-anchor="middle" class="tag" fill="#00F5FF">WEB DEV</text>
-  </g>
-  <g class="float4">
-    <rect x="312" y="155" width="108" height="26" rx="13" fill="#7CFF6B" opacity="0.15" stroke="#7CFF6B"/>
-    <text x="366" y="172" text-anchor="middle" class="tag" fill="#7CFF6B">C · HTML · CSS · JS</text>
-  </g>
 </svg>
