@@ -24,9 +24,9 @@
 
 <p align="center">
   <a href="https://leetcode.com/u/YOUR_LEETCODE_USERNAME">
-    <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=dark&font=Share+Tech+Mono&ext=activity&border=0" width="48%" alt="LeetCode Stats" />
+    <img src="https://leetcard.jacoblin.cool/arjunsingh23206?theme=dark&font=Share+Tech+Mono&ext=activity&border=0" width="48%" alt="LeetCode Stats" />
   </a>
   <a href="https://codeforces.com/profile/YOUR_CF_HANDLE">
-    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=YOUR_CF_HANDLE" width="48%" alt="Codeforces Stats" />
+    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=arjunsingh2306" width="48%" alt="Codeforces Stats" />
   </a>
 </p>
